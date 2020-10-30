@@ -6,6 +6,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ActivityApiClient {
 
+
+
+
     public static Retrofit retrofit=null;
 
     public static Retrofit getApiClient(String url){
