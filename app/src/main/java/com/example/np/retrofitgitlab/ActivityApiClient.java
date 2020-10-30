@@ -8,6 +8,9 @@ public class ActivityApiClient {
 
     public static Retrofit retrofit=null;
 
+
+
+    
     public static Retrofit getApiClient(String url){
 
         if (retrofit==null){
